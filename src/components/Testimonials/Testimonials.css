@@ -1,0 +1,162 @@
+#testimonials .wrapper {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    justify-content: space-between;
+}
+
+#testimonials .boxes_testimonials {
+    position: relative;
+}
+
+#testimonials .title_text_testimonials {
+    width: 560px;
+
+}
+
+#testimonials .title_text_testimonials h2 {
+    color: var(--dark-blue);
+}
+
+#testimonials .title_text_testimonials p {
+    padding-top: 16px;
+    color: var(--dark-blue);
+    font-family: 'Poppins', sans-serif;
+    line-height: 200%;
+}
+
+#testimonials .btn_testimonials {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 24px;
+    background: #DA722C;
+    color: #FFF;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+#testimonials .box_one {
+    display: flex;
+    width: 442px;
+
+
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 9px 36px 0px rgba(0, 0, 0, 0.20);
+    z-index: 20;
+    left: -27px;
+    bottom: 95px;
+    position: absolute;
+}
+
+#testimonials .box_two {
+    display: flex;
+    width: 442px;
+
+
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 9px 36px 0px rgba(0, 0, 0, 0.20);
+    z-index: 20;
+    position: absolute;
+    bottom: -150px;
+    left: 10px;
+}
+
+#testimonials .box_one_header {
+    display: flex;
+    padding: 24px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 24px;
+    background: #6F7DFB;
+
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+}
+
+#testimonials .box_two_header {
+    display: flex;
+    padding: 24px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 24px;
+    background: var(--orange);
+
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+}
+
+#testimonials .box_data {
+    display: flex;
+    align-items: center;
+    padding: 0 32px;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+}
+
+
+.box_data_name {
+    color: #023047;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+
+}
+
+#testimonials .box_data_activity {
+    color: #023047;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+
+}
+
+.box_data_text {
+    padding: 26px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+
+
+#testimonials .img_student {
+    position: absolute;
+    right: 32px;
+    bottom: 5px;
+}
+
+#testimonials .mast {
+    width: 28px;
+    height: 546px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #023047;
+    position: absolute;
+    z-index: 10;
+    left: 60px;
+    top: 0;
+}

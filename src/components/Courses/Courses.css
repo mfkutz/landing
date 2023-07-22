@@ -1,0 +1,79 @@
+#courses {
+    background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+    min-height: 785px;
+}
+
+#courses .courses_container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 56px;
+    /* background: blue; */
+}
+
+#courses .title_courses {
+    text-align: center;
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    line-height: 120%;
+    padding-top: 70px;
+
+}
+
+#courses .box_container {
+    display: flex;
+    width: 526px;
+    padding: 0px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    /* gap: 30px; */
+
+    border-radius: 24px;
+    background: #FFF;
+
+
+}
+
+#courses .box_data p {
+
+    color: var(--dark-blue);
+    font-family: Raleway;
+    display: flex;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+    /* background: rgb(49, 49, 114); */
+}
+
+#courses .box_data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.clock_courses {
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: #023047;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+
+}
+
+.footer_card {
+
+    padding-bottom: 40px;
+    border-bottom: 8px solid #023047;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 20px;
+    padding-bottom: 52px;
+    /* background: red; */
+
+}
